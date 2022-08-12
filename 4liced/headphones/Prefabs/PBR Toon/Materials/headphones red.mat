@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: headphones red
   m_Shader: {fileID: 4800000, guid: 5398f14cd241f2649988529db4480d1c, type: 3}
-  m_ShaderKeywords: _AUDIOLINK_ON _EMISSION_ON _NORMALMAP_ON _REFLECTIONS_ON _SHADING_ON
-    _SPECULAR_ON
+  m_ShaderKeywords: _AUDIOLINK_ON _EMISSION_ON _NORMALMAP_ON _PACKED_WORKFLOW_ON
+    _REFLECTIONS_ON _SHADING_ON _SPECULAR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -199,7 +199,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PackedMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5c28e60dea2c36e4f8bf52709a0d1412, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PackedMask0:
@@ -303,6 +303,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _ACES: 0
     - _AOContrast: 1
     - _AOFiltering: 0
     - _AOIntensity: 0
@@ -454,6 +455,8 @@ Material:
     - _FPS: 30
     - _FPS1: 30
     - _Filtering: 0
+    - _Flipbook0ClipEdge: 0
+    - _Flipbook1ClipEdge: 0
     - _GSAA: 0
     - _GeomDissolveAmount: -2
     - _GeomDissolveAxis: 1
@@ -538,7 +541,7 @@ Material:
     - _OutlineStencilPass: 0
     - _OutlineThicc: 0.1
     - _OutlineToggle: 0
-    - _PBRWorkflow: 0
+    - _PBRWorkflow: 3
     - _PackedRoughPreview: 0
     - _Parallax: 0.02
     - _ParallaxOffset: 0
@@ -730,6 +733,8 @@ Material:
     - _EmissionColor: {r: 1, g: 0, b: 0, a: 1}
     - _EntryPos: {r: 0, g: 1, b: 0, a: 0}
     - _FilterMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Flipbook0Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Flipbook1Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _FrameClipOfs: {r: 0, g: 0, b: 0, a: 0}
     - _FrameClipOfs1: {r: 0, g: 0, b: 0, a: 0}
     - _GeomDissolveSpread: {r: 0.1, g: 0.1, b: 0.1, a: 1}
