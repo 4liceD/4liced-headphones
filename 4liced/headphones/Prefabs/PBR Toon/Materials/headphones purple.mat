@@ -303,6 +303,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _ACES: 0
     - _AOContrast: 1
     - _AOFiltering: 0
     - _AOIntensity: 0
@@ -454,6 +455,8 @@ Material:
     - _FPS: 30
     - _FPS1: 30
     - _Filtering: 0
+    - _Flipbook0ClipEdge: 0
+    - _Flipbook1ClipEdge: 0
     - _GSAA: 0
     - _GeomDissolveAmount: -2
     - _GeomDissolveAxis: 1
@@ -730,6 +733,8 @@ Material:
     - _EmissionColor: {r: 0.09019613, g: 0, b: 1, a: 1}
     - _EntryPos: {r: 0, g: 1, b: 0, a: 0}
     - _FilterMaskScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Flipbook0Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Flipbook1Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _FrameClipOfs: {r: 0, g: 0, b: 0, a: 0}
     - _FrameClipOfs1: {r: 0, g: 0, b: 0, a: 0}
     - _GeomDissolveSpread: {r: 0.1, g: 0.1, b: 0.1, a: 1}
