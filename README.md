@@ -1,9 +1,9 @@
 # 4liced-headphones
  Headphones for avatars with audiolink
  4 different pre set up shading options to fit your avatars style:
- PBR Toon (Personal Favourite)
- Realistic
- Simple Toon
+ PBR Toon (Personal Favourite),
+ Realistic,
+ Simple Toon,
  Toon Outline
 Materials are set up with mochie's uber shader
 https://github.com/MochiesCode/Mochies-Unity-Shaders/releases
