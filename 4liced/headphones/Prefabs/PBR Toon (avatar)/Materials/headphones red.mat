@@ -8,15 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: headphones red
-  m_Shader: {fileID: 4800000, guid: 5398f14cd241f2649988529db4480d1c, type: 3}
+  m_Shader: {fileID: 4800000, guid: e2323fcff2d64de498a9b4eb6e884c3d, type: 3}
   m_ShaderKeywords: _AUDIOLINK_ON _EMISSION_ON _NORMALMAP_ON _PACKED_WORKFLOW_ON
     _REFLECTIONS_ON _SHADING_ON _SPECULAR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses:
   - ALWAYS
   m_SavedProperties:
@@ -110,6 +109,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: 348732ecf5cefa94e8a504736f77fe0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 2800000, guid: 348732ecf5cefa94e8a504736f77fe0f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -186,6 +189,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: b7359cc7e3e84444b88656ff6c166220, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 3b137045938a09d46ab2cfddc7b2d6aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 4fe6b26d375ff204cb88985a798d48a1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -196,6 +203,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Packed:
+        m_Texture: {fileID: 2800000, guid: 60ffaa3a3ed416a42b55a5d0501faea3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PackedMap:
@@ -302,6 +313,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ACES: 0
     - _AOContrast: 1
@@ -382,6 +397,7 @@ Material:
     - _AudioLinkWireframeSize: 0.1
     - _AudioLinkWireframeStartPos: -0.5
     - _AudioLinkWireframeStrength: 0
+    - _AudiolinkChannel: 1
     - _AutoRotate0: 0
     - _AutoShift: 0
     - _AutoShiftSpeed: 0.25
@@ -404,6 +420,7 @@ Material:
     - _CubeBlend: 0
     - _CubeBlendMode: 6
     - _CubeMode: 0
+    - _Cull: 2
     - _CullingMode: 2
     - _Cutoff: 0.5
     - _DFClones: 0
@@ -536,6 +553,7 @@ Material:
     - _NoiseOctaves: 1
     - _NoiseSpeed: 0.5
     - _NonlinearSHToggle: 1
+    - _NormalScale: 1
     - _OcclusionChannel: 2
     - _OcclusionStrength: 1
     - _OutlineCulling: 1
@@ -592,6 +610,8 @@ Material:
     - _RimBlending: 0
     - _RimEdge: 0
     - _RimLighting: 0
+    - _RimOffset: 0.24
+    - _RimPower: 2.22
     - _RimStr: 1
     - _RimWidth: 0.5
     - _RippleAmplitude: 0.5
@@ -700,6 +720,7 @@ Material:
     - _WireframeToggle: 0
     - _ZTest: 4
     - _ZWrite: 1
+    - __dirty: 0
     m_Colors:
     - _AOTint: {r: 0, g: 0, b: 0, a: 1}
     - _AudioLinkTriOffsetMaskScroll: {r: 0, g: 0, b: 0, a: 0}
@@ -763,6 +784,7 @@ Material:
     - _RefractionMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _RefractionTint: {r: 1, g: 1, b: 1, a: 1}
     - _RimCol: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0, b: 0, a: 0}
     - _RimMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _RimScroll: {r: 0, g: 0, b: 0, a: 0}
     - _Rotation: {r: 0, g: 0, b: 0, a: 0}
